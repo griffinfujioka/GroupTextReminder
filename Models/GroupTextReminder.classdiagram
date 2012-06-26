@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="67414a22-4d2c-4136-92e2-9dc7dabe37ea" name="GroupTextReminder" linkedPackageId="137dea77-19c0-47b8-b95e-8074ff3db1cc" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="8131c25d-7bec-49a5-893f-8b7c974c2126">
+      <elementDefinition Id="8e341327-48a4-4b0d-a9a9-d760ee28f29b" />
+      <body>http://www.windowsphonegeek.com/articles/How-to-choose-a-Contact-and-get-Contact-details-in-a-WP7-app</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="673f9620-307d-4a4c-835a-98004682e84b">
+      <profileInstance Id="10414d52-4831-4c1a-a99b-efc0b969229f" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d347d3ba-b67a-4a43-abbf-c4b4dc3c9e96">
+      <profileInstance Id="4fb1f2db-d8b1-4f45-90d7-26a1ac5b95e9" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="61571449-fc52-4812-805a-ac51786d8ca2" name="Group" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="14dc7abf-74c5-44cd-9cd7-677d36a45b6a" />
+        <ownedOperationsInternal>
+          <operation Id="c4fd05c5-6f06-4f16-93b9-1d760f01ee61" name="Add" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e5c33340-d67f-431a-9a13-dfe8b54184bb" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a78a7cd5-578b-4252-90e4-4c0ee336c480" name="Contact" direction="In" isUnique="false">
+                  <elementDefinition Id="ebd52a50-56a2-4686-ae9d-d86a7b6642ad" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="f0f433b8-cb62-4723-93b8-59933dd6c390" name="Remove" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7bed3a6d-88ac-426b-84df-795420c0db1d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="b45c7dca-6c27-48f7-9a76-f72e049f349c" name="Contact" direction="In" isUnique="false">
+                  <elementDefinition Id="8b337718-fd65-45d9-967d-3984558c8a0e" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="3900aacf-21d1-4792-b508-82468e53bb19" name="Edit" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="331b9f62-959e-4796-8c26-7cfb055d95f4" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="52100d42-03b5-41fe-a835-c2fc24744457" name="Contact" direction="In" isUnique="false">
+                  <elementDefinition Id="f288ea94-a0ae-46d7-b4d1-73fd6af42ba7" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="55acf218-272b-4ed3-903d-6cf46d0380b3" name="Contact" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b1290159-c190-4cbb-900c-19e354a99114" />
+        <ownedAttributesInternal>
+          <property Id="29dae72d-0cc2-4914-9d48-12ba11cbc4b9" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d614f155-b258-4c50-a417-1780a49e54a7" />
+          </property>
+          <property Id="49ab0b5b-90b8-401b-9ccd-b3edb45ad29c" name="E-mail" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d82b0b16-8882-47b3-8d64-4d4919aaef02" />
+          </property>
+          <property Id="e986087e-e7f0-4949-bbf2-8bf7f4ac89e3" name="Phone number" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3c1855f5-fee2-42c5-a27d-616b8c3c26aa" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="137dea77-19c0-47b8-b95e-8074ff3db1cc" name="Models">
+    <elementDefinition Id="40e33e6b-301b-4d1c-aee8-946b0c6f5d73" />
+  </package>
+</logicalClassDesignerModel>
