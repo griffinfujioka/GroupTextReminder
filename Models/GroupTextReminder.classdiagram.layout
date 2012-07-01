@@ -2,11 +2,11 @@
 <logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="GroupTextReminder">
   <logicalClassDesignerModelMoniker Id="67414a22-4d2c-4136-92e2-9dc7dabe37ea" />
   <nestedChildShapes>
-    <classShape Id="707f9a57-1408-4d81-8c8a-9fa0f9f881a6" absoluteBounds="3.625, 0.5, 1.5, 1.3828124701976776" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+    <classShape Id="707f9a57-1408-4d81-8c8a-9fa0f9f881a6" absoluteBounds="3.625, 0.5, 1.5, 1.5429687152306237" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
       <classMoniker Id="61571449-fc52-4812-805a-ac51786d8ca2" LastKnownName="Group" />
       <nestedChildShapes>
-        <AttributeElementListCompartment Id="822d0394-bf30-42a6-8b2b-3ba1a0c5a7dc" absoluteBounds="3.6399999999999997, 0.89000000000000012, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
-        <OperationElementListCompartment Id="7059d856-1f49-47eb-aded-55cb8455c62a" absoluteBounds="3.6399999999999997, 1.1011718675494193, 1.4700000000000002, 0.68164060264825821" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <AttributeElementListCompartment Id="822d0394-bf30-42a6-8b2b-3ba1a0c5a7dc" absoluteBounds="3.6399999999999997, 0.89000000000000012, 1.4700000000000002, 0.36132811258236563" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="7059d856-1f49-47eb-aded-55cb8455c62a" absoluteBounds="3.64, 1.2613281125823657, 1.4700000000000002, 0.681640602648258" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
     <classShape Id="d730b0be-6bb0-4b75-9dae-902c109bacc6" absoluteBounds="5, 3, 1.5, 1.3828124701976776" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">

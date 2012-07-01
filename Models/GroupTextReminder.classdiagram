@@ -6,24 +6,15 @@
       <body>http://www.windowsphonegeek.com/articles/How-to-choose-a-Contact-and-get-Contact-details-in-a-WP7-app</body>
     </comment>
   </ownedCommentsInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="673f9620-307d-4a4c-835a-98004682e84b">
-      <profileInstance Id="10414d52-4831-4c1a-a99b-efc0b969229f" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="d347d3ba-b67a-4a43-abbf-c4b4dc3c9e96">
-      <profileInstance Id="4fb1f2db-d8b1-4f45-90d7-26a1ac5b95e9" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="61571449-fc52-4812-805a-ac51786d8ca2" name="Group" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="14dc7abf-74c5-44cd-9cd7-677d36a45b6a" />
+        <ownedAttributesInternal>
+          <property Id="dc01d86b-6eda-4878-9b4f-f676f84715cc" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="63e9f69f-51fc-4056-8c51-24de94e660ff" />
+          </property>
+        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation Id="c4fd05c5-6f06-4f16-93b9-1d760f01ee61" name="Add" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="e5c33340-d67f-431a-9a13-dfe8b54184bb" />
@@ -77,5 +68,19 @@
   </packagedElements>
   <package Id="137dea77-19c0-47b8-b95e-8074ff3db1cc" name="Models">
     <elementDefinition Id="40e33e6b-301b-4d1c-aee8-946b0c6f5d73" />
+    <profileInstances>
+      <packageHasProfileInstances Id="673f9620-307d-4a4c-835a-98004682e84b">
+        <profileInstance Id="10414d52-4831-4c1a-a99b-efc0b969229f" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="d347d3ba-b67a-4a43-abbf-c4b4dc3c9e96">
+        <profileInstance Id="4fb1f2db-d8b1-4f45-90d7-26a1ac5b95e9" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>
